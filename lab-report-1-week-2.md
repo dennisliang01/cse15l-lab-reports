@@ -8,6 +8,12 @@ Last Updated: January 13th, 2022 by Dennis Liang
 ![Image](Screenshot 2022-01-12 173621.png)
 
 ## Installing VScode
+1. Download and Install Visual Studio Code (VSCode) from https://code.visualstudio.com/
+
+2.
+3.
+4.
+5.
 
 ## Remotely Connecting
 
