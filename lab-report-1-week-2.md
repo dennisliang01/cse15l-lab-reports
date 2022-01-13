@@ -1,7 +1,24 @@
-# Lab Report 1
-## Screenshot Below
+# Week 2 Lab Report
+January 14th, 2022
+
+Last Updated: January 13th, 2022 by Dennis Liang
 
 ![Image](Screenshot 2022-01-12 173621.png)
-![Image](https://github.com/dennisliang01/cse15l-lab-reports/blob/d9fdf23c9a9f76cdb32234cefc95bf13caffc7f4/Screenshot%202022-01-12%20173621.png)
+
+## Installing VScode
+
+## Remotely Connecting
+
+## Trying Some Commands
+
+## Moving Files with scp
+
+## Setting an SSH Key
+
+## Optimizing Remote Running
+
+
+
+
 
 
