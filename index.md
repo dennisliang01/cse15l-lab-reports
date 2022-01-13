@@ -1,19 +1,21 @@
 
-# Heading 1
-## Heading 2
-![Image](![Image](https://ucsdnews.ucsd.edu/news_uploads/210115-Geisel-139DSC_7412-UCSanDiego-ErikJepsen.jpg)
+# Dennis' Webpage
+## Different things
+![Geisel Library](![Image](https://ucsdnews.ucsd.edu/news_uploads/210115-Geisel-139DSC_7412-UCSanDiego-ErikJepsen.jpg)
 
 
-[Link](https://ucsd-cse15l-w22.github.io/week/week2/)
+[Lab Webpage](https://ucsd-cse15l-w22.github.io/week/week2/)
 
-*Italic*
-**Bold**
+*CSE15L*
+**Experimenting**
+
 Hello this is the first file in the cse15l lab
-> Blockquote
 
-* List
-* List
-* List
+> This is a blockquote
+
+* First
+* Second
+* Third
 
 Horizontal rule:
 
