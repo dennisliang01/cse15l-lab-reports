@@ -1,11 +1,3 @@
----
-layout: page
-title: Coursework
----
-
-Text for your page goes here.
-
-
 # Week 2 Lab Report
 January 14th, 2022
 
