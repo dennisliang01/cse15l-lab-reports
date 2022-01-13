@@ -11,9 +11,8 @@ Last Updated: January 13th, 2022 by Dennis Liang
 1. Got to https://code.visualstudio.com/
 ![Image](Screenshot 2022-01-13 150715.png)
 2. Download the appropriate version of Visual Studio Code (VSCode) for your computer
-3.
-4.
-5.
+3. After opening VSCode, it should look similar to image below
+
 
 ## Remotely Connecting
 
