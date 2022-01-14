@@ -84,12 +84,10 @@ ssh-keygen
 3. Next copy the public key to the .ssh directory of your user acount on the server. Replace the login information with your own.
 ```
 ssh cs15lwi22zz@ieng6.ucsd.edu
-<Enter Password>
 mkdir .ssh
 exit
 scp \Users\denni/.ssh/id_rsa.pub cs15lwi22ame@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
-The above commands was taken from the cse15l page.
 4. The entire process should look like this.
 
 
