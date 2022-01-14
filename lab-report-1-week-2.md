@@ -82,11 +82,11 @@ ssh-keygen
 2. Depending on your system such as Windows, you may need to perform extra steps outlined [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 3. Next copy the public key to the .ssh directory of your user acount on the server. Replace the login information with your own.
 ```
-$ ssh cs15lwi22zz@ieng6.ucsd.edu
+ssh cs15lwi22zz@ieng6.ucsd.edu
 <Enter Password>
-$ mkdir .ssh
-$ exit
-$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+mkdir .ssh
+exit
+scp \Users\denni/.ssh/id_rsa.pub cs15lwi22ame@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 The above commands was taken from the cse15l page.
 4. The entire process should look like this.
@@ -96,7 +96,14 @@ The above commands was taken from the cse15l page.
 
 
 ## Optimizing Remote Running
+Several commands are available to make using command line interface and remote access easier.
+Here are some commands to try out
+- While on your local computer the following command allows you to log in and list the files in your account's home directory
+```
+ssh cs15lwi22amd@ieng6.ucsd.edu "ls"
+```
 
+- 
 
 
 
