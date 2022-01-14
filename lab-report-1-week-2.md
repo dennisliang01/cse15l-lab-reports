@@ -25,8 +25,32 @@ Last Updated: January 13th, 2022 by Dennis Liang
 
 
 ## Trying Some Commands
+Below are some commands to try out. The terminal is a command line interface as oppose to the graphical interface we are used to using.
+
+mkdir: make directory
+```
+mkdir firstDirectory
+```
+ls: list files
+```
+ls
+```
+cd: change directory
+```
+cd firstDirectory
+```
+
+Your results should be something like the follwing
+![Image](Screenshot 2022-01-13 155457.png)
+
+To exit you can use either commmand
+* ctrl-d
+* exit
+
 
 ## Moving Files with scp
+When you log in, you are using the ieng6 computer. To transfer file from your computer to ieng6, you need to use the scp command.
+
 
 ## Setting an SSH Key
 
