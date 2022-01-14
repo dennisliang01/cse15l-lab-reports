@@ -91,9 +91,8 @@ scp \Users\denni/.ssh/id_rsa.pub cs15lwi22ame@ieng6.ucsd.edu:~/.ssh/authorized_k
 ```
 The above commands was taken from the cse15l page.
 4. The entire process should look like this.
-![Image](Screenshot 2022-01-13 170951.png)
-![Image](Screenshot 2022-01-13 170714.png)
-![Image](Screenshot 2022-01-13 171525.png)
+
+
 
 
 ## Optimizing Remote Running
