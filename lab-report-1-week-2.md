@@ -73,6 +73,7 @@ scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
 The whole process should look like this.
 ![Image](Screenshot 2022-01-13 162804.png)
 
+
 ## Setting an SSH Key
 Having to type in your password when you login and transfer file can be time consuming. SSH keys allow the client and host to recognize each other, forgoing having to manually type in password.
 1. Enter the following command and follow the prompt
@@ -103,7 +104,13 @@ Here are some commands to try out
 ssh cs15lwi22amd@ieng6.ucsd.edu "ls"
 ```
 
-- 
+- To run multiple commands, simply seperate the commands with a semicolon
+
+Here are some examples
+![Image](Screenshot 2022-01-13 172536.png)
+
+---
+This was a summary of the week 1 lab setup process. For more information go to [here](https://ucsd-cse15l-w22.github.io/week/week1/)
 
 
 
