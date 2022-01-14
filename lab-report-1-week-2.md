@@ -51,8 +51,49 @@ To exit you can use either commmand
 ## Moving Files with scp
 When you log in, you are using the ieng6 computer. To transfer file from your computer to ieng6, you need to use the scp command.
 
+1. Create the following file on your local computer and name it WhereAmI.java
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+2. Compile and run the file using javac and java to see the results.
+3. Next use the following command to transfer the file to your ieng6 directory. Keep in mind to replace the ending bit with your own username.
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+4. Enter your password when the terminal prompts you to do so.
+5. Proceed to log onto ieng6 and use ls to see if your file is there
+6. Compile and run the file and compare the results with the earlier step
+The whole process should look like this.
+![Image](Screenshot 2022-01-13 162804.png)
 
 ## Setting an SSH Key
+Having to type in your password when you login and transfer file can be time consuming. SSH keys allow the client and host to recognize each other, forgoing having to manually type in password.
+1. Enter the following command and follow the prompt
+```
+ssh-keygen
+```
+2. Depending on your system such as Windows, you may need to perform extra steps outlined [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+3. Next copy the public key to the .ssh directory of your user acount on the server. Replace the login information with your own.
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+$ mkdir .ssh
+$ exit
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+The above commands was taken from the cse15l page.
+4. The entire process should look like this.
+![Image](Screenshot 2022-01-13 170951.png)
+![Image](Screenshot 2022-01-13 170714.png)
+![Image](Screenshot 2022-01-13 171525.png)
+
 
 ## Optimizing Remote Running
 
