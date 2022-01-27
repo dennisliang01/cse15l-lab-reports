@@ -104,8 +104,18 @@ Here are some commands to try out
 ```
 ssh cs15lwi22amd@ieng6.ucsd.edu "ls"
 ```
+- 
 
 - To run multiple commands, simply seperate the commands with a semicolon
+- The main purpose of the previous commands is the you can minimize the number of keystrokes used to run commands and programs.
+
+Logging in and running file
+![Image](Screenshot 2022-01-27 105927.png)
+
+Running file remotely while on local computer
+![Image](Screenshot 2022-01-27 111004.png)
+
+As you can see, using shortcuts, you can do what would normally take three lines of code in one line. You also stay on your local computer which could be convenient if you are also swithcing between local and remote.
 
 Here are some examples
 ![Image](Screenshot 2022-01-13 172536.png)
