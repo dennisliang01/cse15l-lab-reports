@@ -115,7 +115,7 @@ Logging in and running file
 Running file remotely while on local computer
 ![Image](Screenshot 2022-01-27 111004.png)
 
-As you can see, using shortcuts, you can do what would normally take three lines of code in one line. You also stay on your local computer which could be convenient if you are also swithcing between local and remote.
+As you can see, using shortcuts, you can do what would normally take three lines of code in one line. You also stay on your local computer which could be convenient if you are also swithcing between local and remote. In addition normally, logging in and running file would take around 10-15 seconds while the previous command would only take five seconds. There would also be a slight decrease in keystrokes (71 keystrokes vs. 69 keystorkes).
 
 Here are some examples
 ![Image](Screenshot 2022-01-13 172536.png)
