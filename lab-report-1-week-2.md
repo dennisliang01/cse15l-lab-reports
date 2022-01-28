@@ -1,4 +1,4 @@
-# Week 2 Lab Report
+# Week 2 Lab Report 1
 January 13th, 2022
 
 Last Updated: January 27th, 2022 by Dennis Liang
