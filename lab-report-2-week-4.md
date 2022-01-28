@@ -7,8 +7,7 @@ Last Updated: January 27th, 2022 by Dennis Liang
 ### Bug 1
 ![Image](Screenshot 2022-01-27 185846.png)
 
-[Link][https://github.com/dennisliang01/markdown-parse/blob/164a14b8a68b439ac981942f0a83614a4e069945/test-file-2.md] 
-to failure inducing test file.
+[Link](https://github.com/dennisliang01/markdown-parse/blob/164a14b8a68b439ac981942f0a83614a4e069945/test-file-2.md) to failure inducing test file.
 
 Symptom
 ![Image](Screenshot 2022-01-27 190700.png)
@@ -21,8 +20,7 @@ The bug is caused by the file having parentheses inside the link which broke the
 ### Bug 2
 ![Image](Screenshot 2022-01-27 192222.png)
 
-[Link][https://github.com/dennisliang01/markdown-parse/blob/164a14b8a68b439ac981942f0a83614a4e069945/test-file-2.md] 
-to failure inducing test file.
+[Link](https://github.com/dennisliang01/markdown-parse/blob/164a14b8a68b439ac981942f0a83614a4e069945/test-file-2.md) to failure inducing test file.
 
 Symptom
 ![Image](Screenshot 2022-01-27 192605.png)
