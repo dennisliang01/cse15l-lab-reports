@@ -32,10 +32,11 @@ The bug is caused having a disconnected square bracket and parenthese which caus
 ### Bug 3
 ![Image](Screenshot 2022-01-27 200032.png)
 
-[Link][] to failure inducing test file.
+[Link](https://github.com/dennisliang01/markdown-parse/blob/main/breaking-test-file-3.md) to failure inducing test file.
 
 Symptom
-```
+![Image](Screenshot 2022-01-27 200600.png)
 
-```
+Sometimes link brackets could be empty or have invalid inside. The symptom is that invalid links were also being inserted into the list. URLs do not have spaces.
+
 ---
