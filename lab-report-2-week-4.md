@@ -1,7 +1,7 @@
 # Week 4 Lab Report 2
 January 27th 2022
 
-Last Updated: January 27th, 2022 by Dennis Liang
+Last Updated: February 10th, 2022 by Dennis Liang
 
 ## Fixing Bugs
 ### Bug 1
