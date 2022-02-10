@@ -3,7 +3,7 @@ February 11th 2022
 
 Last Updated: February 10th, 2022 by Dennis Liang
 
-##Streamling ssh Configuration
+## streamling ssh Configuration
 ### .ssh/config file
 ![Image](lab-report-3-images\Screenshot 2022-02-10 142740.png)
 
