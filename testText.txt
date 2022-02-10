@@ -1,0 +1,1 @@
+this is a test to see if the config file works with copying files
