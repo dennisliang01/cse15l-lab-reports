@@ -16,4 +16,6 @@ Last Updated: February 10th, 2022 by Dennis Liang
 
 - [Week 6 Lab Report 3](https://dennisliang01.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
+- [Week 8 Lab Report 4](https://dennisliang01.github.io/cse15l-lab-reports/lab-report-4-week-8)
+
 Questions? Contact: dbliang@ucsd.edu
