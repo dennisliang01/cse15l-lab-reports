@@ -36,19 +36,42 @@ Based on outputs from this webesite [here](https://spec.commonmark.org/dingus/)
 Link to personal repository [here](https://github.com/dennisliang01/markdown-parse)
 
 ### Snippet 1
+![Image](lab-report-4-images\Screenshot 2022-02-25 155553.png)
+![Image](lab-report-4-images\Screenshot 2022-02-25 155634.png)
+
+Did not pass the test
 
 ### Snippet 2
 
+![Image](lab-report-4-images\Screenshot 2022-02-25 155754.png)
+![Image](lab-report-4-images\Screenshot 2022-02-25 155933.png)
+
+Did not pass the test
+
 ### Snippet 3
+
+![Image](lab-report-4-images\Screenshot 2022-02-25 160149.png)
+![Image](lab-report-4-images\Screenshot 2022-02-25 160214.png)
+
+Did not pass the test
 
 ## Other Group Markdown-Parse Repository
 Link to personal repository [here](https://github.com/codyprupp/markdown-parse)
 
 ### Snippet 1
 
+![Image]()
+![Image]()
+
 ### Snippet 2
 
+![Image]()
+![Image]()
+
 ### Snippet 3
+
+![Image]()
+![Image]()
 
 ## Answer to Questions
 
