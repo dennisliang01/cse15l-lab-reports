@@ -37,8 +37,17 @@ Expected Result:
 ![Image](lab-report-5-images\Screenshot 2022-03-11 151819.png)
 
 According to the commonmark demo website, my implementation is correct because
-the given file does not contain any valid link.
+the given file does not contain any valid link. Therefore, the markdownparse
+program should not have stored anything in the output list.
 
+The bug is that the professor's markdown parse is ignoring the "<>". In
+markdown, the "<>" is often used to indicate formatting such as bold or italicize. 
+To fix this issue, the best thing to do is to add a statement to check if there
+are any "<" or ">" in the each line. This could be inserted after line 64
+below. The program would then skip until there is an equivlaent "</>"
+character and restart looking for open square brackets. 
+
+![Image](lab-report-5-images\Screenshot 2022-03-11 154520.png)
 
 ## Test 2
 
