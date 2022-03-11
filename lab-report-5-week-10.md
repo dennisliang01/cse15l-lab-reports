@@ -20,22 +20,25 @@ tests where there were differnt results.
 ## Test 1
 Test File: 201.md
 
-'''
+```
 [foo]: <bar>(baz)
 
 [foo]
-'''
+```
 
 Expected Result:
 
 ![Image](lab-report-5-images\Screenshot 2022-03-11 152205.png)
 
-'''
+```
 []
-'''
+```
 
 ### Results
 ![Image](lab-report-5-images\Screenshot 2022-03-11 151819.png)
+
+According to the commonmark demo website, my implementation is correct because
+the given file does not contain any valid link.
 
 
 ## Test 2
