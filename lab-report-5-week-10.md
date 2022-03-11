@@ -15,11 +15,10 @@ the results of the two results.txt file. I stored  the results of the diff
 commmand in a file called compareResults.txt and it showed me all the
 tests where there were differnt results.
 
-# Tests With Different Results
+## Tests With Different Results
 
 ## Test 1
-Test File: 201.md
-
+### Test File: 201.md
 ```
 [foo]: <bar>(baz)
 
@@ -42,5 +41,7 @@ the given file does not contain any valid link.
 
 
 ## Test 2
+
+### Test File: 201.md
 
 ### Results
