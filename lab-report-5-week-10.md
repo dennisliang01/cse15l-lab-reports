@@ -33,7 +33,7 @@ Expected Result:
 []
 ```
 
-### Results
+### Actual Output ("<" = Mine, ">" = Professor)
 ![Image](lab-report-5-images\Screenshot 2022-03-11 151819.png)
 
 According to the commonmark demo website, my implementation is correct because
@@ -51,6 +51,32 @@ character and restart looking for open square brackets.
 
 ## Test 2
 
-### Test File: 201.md
+### Test File: 487.md
+```
+[link](/my uri)
+```
 
-### Results
+Expected Result:
+
+![Image](lab-report-5-images\Screenshot 2022-03-11 164103.png)
+
+```
+[]
+```
+
+### Actual Output ("<" = Mine, ">" = Professor)
+![Image](lab-report-5-images\Screenshot 2022-03-11 163900.png)
+
+According to the commonmark demo website, my implementaion of the markdown parse
+program is wrong for the given test. The actual output should be no link
+added to the list. However, my output added a link to the list. The professor's
+output is correct and did not include anything to the output.
+
+My version of the markdown parse program is not detecting spaces in the ().
+Having spaces would make any text within the () not a link. I would need 
+to add a way to detect if there are spaces within the link. To do this,
+I can simply check before line 24 that if the string to be added to the list
+contains any spaces. If the string contains any spaces, I simply don't add
+the string to the list of links.
+
+![Image](lab-report-5-images\Screenshot 2022-03-11 164531.png)
